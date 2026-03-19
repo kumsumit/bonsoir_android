@@ -1,3 +1,11 @@
+## 6.0.1
+
+ - **REFACTOR**: Finished renaming branch `master` into `main`. ([5c832e56](https://github.com/Skyost/Bonsoir/commit/5c832e56273eb90c19b502d1c53af71e1e9e085a))
+
+## 6.0.0
+
+ - **FEAT**: Added a `BonsoirDiscoveryServiceUpdatedEvent` event. ([75d3ee9d](https://github.com/Skyost/Bonsoir/commit/75d3ee9dbb49b7e1ea7167a4479a862c9184a931))
+
 ## 5.1.6
 
  - **FIX**(android): Removed android v1 embedding. ([d26707f7](https://github.com/Skyost/Bonsoir/commit/d26707f7c870a19d64bf256b7173de7ac5891825))
