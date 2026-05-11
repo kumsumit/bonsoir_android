@@ -4,11 +4,11 @@ homepage: https://bonsoir.skyost.eu
 repository: https://github.com/Skyost/Bonsoir/tree/main/packages/bonsoir_android
 issue_tracker: https://github.com/Skyost/Bonsoir/issues
 version: 6.0.1
-resolution: workspace
+publish_to: none
 
 environment:
-  sdk: ">=3.8.0 <4.0.0"
-  flutter: ">=3.7.0"
+  sdk: ">=3.11.0 <4.0.0"
+  flutter: ">=3.41.0"
 
 flutter:
   plugin:
@@ -21,4 +21,5 @@ flutter:
 dependencies:
   flutter:
     sdk: flutter
-  bonsoir_platform_interface: ^6.0.1
+  bonsoir_platform_interface:
+    git: https://github.com/kumsumit/bonsoir_platform_interface.git
