@@ -4,7 +4,7 @@ plugins {
     id("com.android.library")
 }
 
-group 'fr.skyost.bonsoir'
+group = "fr.skyost.bonsoir"
 version = "1.0.0"
 
 repositories {
@@ -31,7 +31,7 @@ android {
 
     sourceSets {
         getByName("main") {
-            java.srcDirs("src/main/kotlin")
+            java.setSrcDirs("src/main/kotlin")
         }
     }
 
